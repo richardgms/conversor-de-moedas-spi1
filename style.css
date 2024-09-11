@@ -45,20 +45,21 @@ section h2{
 
 section img{
     width: 30px;
+    cursor: pointer;
 }
 
-input[type=number]::-webkit-inner-spin-button { 
+input[type=text]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
     
 }
 
-input[type=number] { 
+input[type=text] { 
    -moz-appearance: textfield;
    appearance: textfield;
 
 }
 
-#real{
+#valor{
     padding: 10px 20px;
     border-radius: 20px;
     border: solid black 2px;
@@ -71,7 +72,7 @@ input[type=number] {
     background-color: black;
     color: white;
     padding: 10px;
-    border-radius: 30%;
+    border-radius: 20px;
     font-size: 20px;
     cursor: pointer;
     border: solid rgb(61, 61, 61) 2px;
@@ -81,4 +82,3 @@ input[type=number] {
     font-size: 25px;
     margin: 0 0 2vh 0;
 }
-

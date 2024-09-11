@@ -13,13 +13,13 @@
     <main>
         <div class="content">
             <section>
-                <h2>Real</h2>
-                <img src="./assets/exchange.png" alt="Exchange">
-                <h2>Dólar</h2>
+                <h2 id="m1">Real</h2>
+                <img onclick="change()" src="./assets/exchange.png" alt="Exchange">
+                <h2 id="m2">Dólar</h2>
             </section>
 
             <h3>Conversor de Moedas</h3>
-            <input id="real" type="number">
+            <input id="valor" oninput="formatarMoeda(this)" placeholder="Digite um valor" type="text" maxlength="12">
             <p id="resul"></p>
             <input id="submit" type="submit" value="Converter" onclick="converter()">
         </div>
